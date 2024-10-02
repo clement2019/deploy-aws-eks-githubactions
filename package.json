@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/clement2019/deploy-aws-eks-githubactions#readme",
   "dependencies": {
-    "exppress": "^0.0.1-security"
+    "exppress": "^0.0.1-security",
+    "express": "^4.21.0"
   }
 }

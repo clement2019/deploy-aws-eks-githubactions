@@ -29,6 +29,10 @@ Clean up: Run: eksctl delete cluster --name eks-cluster-110
 
 ## To test run the node.js application locally run the following command
 npm init -y
+ npm --version
+ node -v
+ npm install express --save
+ 
 
 # to generate packet.json and packetlock.json and 
 # to install exppress
