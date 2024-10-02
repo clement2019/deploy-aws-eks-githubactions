@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: primuslearning
+  name: diamondappdeployment
   labels:
-    app: primuslearning
+    app: diamondappdeployment
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
-      app: primuslearning
+      app: diamondappdeployment
   template:
     metadata:
       labels:
-        app: primuslearning
+        app: diamondappdeployment
     spec:
       containers:
-        - name: primuslearning
-          image: 274127640471.dkr.ecr.us-east-2.amazonaws.com/primuslearning:1.1
+        - name: diamondapp-webcontainer
+          image: 759623136685.dkr.ecr.eu-west-2.amazonaws.com/diamondimage:1.2
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
