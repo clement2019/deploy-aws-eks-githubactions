@@ -15,8 +15,8 @@ spec:
         app: diamondappdeployment
     spec:
       containers:
-        - name: diamondapp-webcontainer
-          image: 759623136685.dkr.ecr.eu-west-2.amazonaws.com/diamondimage:1.2
+        - name: diamondappdeployment
+          image: 759623136685.dkr.ecr.eu-west-2.amazonaws.com/diamondimage:1.3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
