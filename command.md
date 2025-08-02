@@ -15,7 +15,7 @@ aws eks update-kubeconfig --name eks-cluster-110
 
 # Workflow for github actions
 
-2. Then create .github folder and then create workflow folder inside .github folder 
+2. Then create .github folder and then create workflows folder inside .github folder 
 3. create file with .yml extension and write the workflow code
 4. Create a github repository 
 5. Create secrets in github repo
